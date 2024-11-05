@@ -1,9 +1,168 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="7No4sdxauNewY7OQi6Vr">
-    <mxGraphModel>
+    <mxGraphModel dx="1735" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-2" value="Owner creates Organisation Profile" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-3" value="Invite Member to Organisation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SgEAFDrlLfkn_4DXUW9F-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="280" as="sourcePoint" />
+            <mxPoint x="195" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-6" value="wait for member to join" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="135" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-8" value="Member joined" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-10" value="manage members in organisation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-11" value="Member did not joined" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SgEAFDrlLfkn_4DXUW9F-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="350" as="sourcePoint" />
+            <mxPoint x="500" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-15" value="create dataspace&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Member%20joined%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22310%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-16" value="join dataspace&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Member%20joined%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22310%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="510" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-18" value="Member Register" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-19" value="Recieves notice that he needs to be part of organisation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="610" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SgEAFDrlLfkn_4DXUW9F-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="680" as="sourcePoint" />
+            <mxPoint x="185" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-21" value="wait for organisation invite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="125" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="750" as="sourcePoint" />
+            <mxPoint x="430" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-23" value="Recieved Organisation invite" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-24" value="switch to organisation Profile" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="430" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SgEAFDrlLfkn_4DXUW9F-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="750" as="sourcePoint" />
+            <mxPoint x="490" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="470" y="510" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-28" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-29" value="manage organisation&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Member%20joined%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22310%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-30" value="view organisation&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Member%20joined%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22310%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-32" value="User has access to datastace(s) of organisation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="515" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="860" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-35" value="User wants to create/join second organisation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="860" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-36" value="wait for organisation invite" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="960" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SgEAFDrlLfkn_4DXUW9F-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1030" as="sourcePoint" />
+            <mxPoint x="185" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-38" value="user recieved invite or created own organisation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1100" as="sourcePoint" />
+            <mxPoint x="430" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-40" value="user switches profile to organisation A" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1050" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-41" value="user switched his profile to organisation X" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SgEAFDrlLfkn_4DXUW9F-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="1100" as="sourcePoint" />
+            <mxPoint x="490" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-43" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="470" y="860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-44" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="870" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-45" value="manage organisation X&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Member%20joined%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22310%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-46" value="view organisation&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: start;&quot;&gt;X&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Member%20joined%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22310%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-47" value="User has access to datastace(s) of organisation X" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="865" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-48" value="create own organisation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="960" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SgEAFDrlLfkn_4DXUW9F-49" value="user switches profile to organisation B" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1110" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
